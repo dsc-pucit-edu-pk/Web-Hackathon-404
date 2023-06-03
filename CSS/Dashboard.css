@@ -1,0 +1,31 @@
+
+.navBar
+{
+    background-color: var(--accent) !important;
+    color: white !important;
+}
+.navBar a
+{
+    color: white !important;
+}
+.navbar-brand
+{
+	font-size: var(--fs3) !important;
+	font-weight: bold !important;
+}
+
+.search
+{
+	margin: 0 !important;
+}
+
+.foodImg
+{
+	width: 5rem;
+    display: block;
+    margin: auto;
+}
+
+
+
+

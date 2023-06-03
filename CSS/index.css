@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+
+:root {
+    /* Fonts */
+    --fs1: clamp(1.8rem, 4vw, 3.3rem);
+    --fs2: clamp(1.5rem, 3vw, 3rem);
+    --fs3: clamp(1.2rem, 2vw, 1.8rem);
+    --fs4: clamp(1rem, 1.1vw, 1.5rem);
+    --fs5: clamp(0.8rem, 0.92vw, 1.2rem);
+    --accent:#ff6f10;
+}
+    /* colours 
+
+}
+
+.input-field
+{
+	margin:1rem 0;
+}
+
+*/
+body {
+    /* Margin and paddings */
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.Submit {
+    background: var(--accent);
+    outline: none;
+    border: none;
+    font-size: var(--fs4);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight:500;
+    cursor: pointer;
+    margin: auto;
+}
