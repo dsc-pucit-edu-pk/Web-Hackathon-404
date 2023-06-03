@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	
+	<servlet>
+		
+		<servlet-name>AddJobs</servlet-name>
+		<servlet-class>AddJobs</servlet-class>
+	</servlet>
+
+
+	<servlet-mapping>
+		<servlet-name>AddJobs</servlet-name>
+		<url-pattern>/AddJobs</url-pattern>
+	</servlet-mapping>
+<servlet>
+		
+		<servlet-name>EditJobs</servlet-name>
+		<servlet-class>EditJobs</servlet-class>
+	</servlet>
+
+
+	<servlet-mapping>
+		<servlet-name>EditJobs</servlet-name>
+		<url-pattern>/EditJobs</url-pattern>
+	</servlet-mapping>
+
+<servlet>
+		
+		<servlet-name>DeleteJobs</servlet-name>
+		<servlet-class>DeleteJobs</servlet-class>
+	</servlet>
+
+
+	<servlet-mapping>
+		<servlet-name>DeleteJobs</servlet-name>
+		<url-pattern>/DeleteJobs</url-pattern>
+	</servlet-mapping>
+<servlet>
+		
+		<servlet-name>Logout</servlet-name>
+		<servlet-class>Logout</servlet-class>
+	</servlet>
+
+
+	<servlet-mapping>
+		<servlet-name>Logout</servlet-name>
+		<url-pattern>/Logout</url-pattern>
+	</servlet-mapping>
+<servlet>
+		
+		<servlet-name>UpdateProfile</servlet-name>
+		<servlet-class>UpdateProfile</servlet-class>
+	</servlet>
+
+
+	<servlet-mapping>
+		<servlet-name>UpdateProfile</servlet-name>
+		<url-pattern>/UpdateProfile</url-pattern>
+	</servlet-mapping>
+
+</web-app>
